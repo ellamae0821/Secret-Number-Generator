@@ -15,7 +15,7 @@ module.exports = function() {
 */
 'use strict';
 module.exports = function() {
-  var math = ((Math.random() * 1000000 ) + 1); // RANDOM NUMBERS HAVE BEEN GENERATED
+  var math = Math.floor(Math.random() * 1000001 ); // RANDOM NUMBERS HAVE BEEN GENERATED
 
   function generateRandome() {
     return math;
